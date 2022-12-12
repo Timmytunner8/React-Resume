@@ -11,13 +11,13 @@ export const HeaderNav = () => {
             <nav>
                 <ul>
                     <li>
-                        <NavLink to='/main'>About</NavLink>
+                        <NavLink to='/about'>About</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/profile'>Experience</NavLink>
+                        <NavLink to='/experience'>Experience</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/resume'>Work</NavLink>
+                        <NavLink to='/work'>Work</NavLink>
                     </li>
                     <li>
                         <NavLink to='/contact'>Contact</NavLink>

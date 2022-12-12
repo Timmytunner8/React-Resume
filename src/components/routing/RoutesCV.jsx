@@ -4,11 +4,14 @@ import { Main } from '../ui/Main'
 import { Contact } from '../ui/Contact'
 import { Profile } from '../ui/Profile'
 import { Resume } from '../ui/Resume'
+import { HeaderNav } from '../layout/HeaderNav'
+import { Footer } from '../layout/Footer'
 
-export const Routes = () => {
+export const RoutesCV = () => {
   return (
     <BrowserRouter>
         {/* Navigation and header*/}
+            <HeaderNav />
         {/* Central Content */}
             <Routes>
                 <Route
@@ -33,6 +36,7 @@ export const Routes = () => {
                 />
             </Routes>
         {/* Footer */}
+        <Footer />
     </BrowserRouter>
   )
 }

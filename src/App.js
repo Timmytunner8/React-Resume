@@ -1,10 +1,10 @@
-import { Routes } from 'react-router-dom';
 import './App.css';
+import { RoutesCV } from './components/routing/RoutesCV';
 
 function App() {
   return (
     <>
-      <Routes />
+      <RoutesCV />
     </>
   );
 }

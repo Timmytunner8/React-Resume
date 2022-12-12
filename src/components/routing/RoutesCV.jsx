@@ -13,6 +13,7 @@ export const RoutesCV = () => {
         {/* Navigation and header*/}
             <HeaderNav />
         {/* Central Content */}
+            <section className='content'>
             <Routes>
                 <Route
                     path='/'
@@ -35,6 +36,7 @@ export const RoutesCV = () => {
                     element={<Resume />}
                 />
             </Routes>
+            </section>
         {/* Footer */}
         <Footer />
     </BrowserRouter>

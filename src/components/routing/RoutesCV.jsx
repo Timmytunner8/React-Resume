@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, NavLink, Navigate } from 'react-router-dom'
 import { About } from '../ui/About'
 import { Contact } from '../ui/Contact'
 import { HeaderNav } from '../layout/HeaderNav'
@@ -17,10 +17,10 @@ export const RoutesCV = () => {
                 <Routes>
                     <Route
                         path='/'
-                        element={<About />}
+                        element={<Navigate to='/about' />}
                     />
                     <Route
-                        path='/main'
+                        path='/about'
                         element={<About />}
                     />
                     <Route

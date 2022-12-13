@@ -73,6 +73,7 @@ code {
   color: white;
 }
 
+.header .active,
 .header a:hover {
   color: dodgerblue;
 }

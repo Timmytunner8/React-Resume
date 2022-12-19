@@ -80,6 +80,10 @@ code {
 
 .content {
   min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: auto 450px;
+  justify-content: flex-start;
 }
 
 .footer {
@@ -90,13 +94,6 @@ code {
 }
 
 /*About style*/
-
-.container_about {
-  display: flex;
-  flex-direction: column;
-  margin: auto 450px;
-  justify-content: flex-start;
-}
 
 .container_about p {
   width: 600px;
@@ -125,7 +122,7 @@ code {
   list-style: none;
 }
 
-.list_skills  ul {
+.list_skills ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -133,7 +130,7 @@ code {
 
 }
 
-.list_skills  li {
+.list_skills li {
   position: relative;
   padding-left: 30px;
   margin-bottom: 10px;
@@ -141,9 +138,38 @@ code {
 
 }
 
-.list_skills  li::before {
+.list_skills li::before {
   content: '▹';
   position: absolute;
   left: 0;
+  color: dodgerblue;
+}
+
+/*Concat*/
+
+.contact_c h1 {
+  color: dodgerblue;
+  font-size: 42px;
+  font-weight: 700;
+  margin: auto 195px;
+  margin-bottom: 20px;
+}
+
+.contact_c span {
+  color: dodgerblue;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.contact_c p {
+  width: 400px;
+  margin: auto 115px;
+}
+
+.contact_c a {
+  color: whitesmoke;
+}
+
+.contact_c a :hover {
   color: dodgerblue;
 }

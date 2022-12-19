@@ -3,7 +3,7 @@ import React from 'react'
 export const About = () => {
   const skills = ['Angular', 'Firebase', 'Spring Boot', 'OutSystem', 'React', 'Unity', 'JavaScript (ES6+)']
   return (
-    <div className='container_about'>
+    <div className='container_about container'>
       <h5>Hi, My name is</h5>
       <h2>Brandon, <br /> Software Engineer</h2>
       <h2 className='about_description'>I building things for Web, and VideoGames</h2>

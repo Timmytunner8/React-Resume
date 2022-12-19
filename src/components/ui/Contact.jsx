@@ -1,5 +1,5 @@
 import React from 'react'
-import { Twitter } from '../icons/twitter'
+import { Social } from './social'
 
 export const Contact = () => {
   return (
@@ -11,7 +11,7 @@ export const Contact = () => {
         <br />
         <span>!Happy coding</span>
       </p>
-      <a href='https://twitter.com/TimmyTunner08' target='_blank'> <Twitter /> </a>
+      <Social />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const About = () => {
-  const skills = ['Angular', 'Firebase', 'Spring Boot', 'OutSystem', 'React', 'Unity', 'JavaScript (ES6+)']
+  const skills = ['Angular', 'Firebase', 'Spring Boot', 'OutSystem', 'React', 'Unity', 'JavaScript (ES6+)', 'C#', 'TypeScript', 'Git']
   return (
     <div className='container_about container'>
       <h5>Hi, My name is</h5>

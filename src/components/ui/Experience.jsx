@@ -33,7 +33,14 @@ export const Experience = () => {
         </Col>
         <Col md={4}>
           {
-            <DetailExperience key={job.link} title={job.name} duration={job.durationWork}/>
+            <DetailExperience
+              key={job.link}
+              id={job.id}
+              title={job.name}
+              position={job.position}
+              details={job.details}
+              duration={job.durationWork}
+            />
           }
         </Col>
       </Row>

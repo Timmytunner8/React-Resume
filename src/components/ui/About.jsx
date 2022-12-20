@@ -22,7 +22,7 @@ export const About = () => {
       <p>
         I'm still practicing my skills in React for the Front-End part. In the back-end part, I'm learning Spring Boot.
       </p>
-      <ul className='list_skills'>
+      <ul className='list'>
         {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
       </ul>
     </div>

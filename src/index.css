@@ -117,7 +117,7 @@ code {
   margin: 0;
 }
 
-.list_skills {
+.list{
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   gap: 0px 10px;
@@ -127,7 +127,7 @@ code {
   list-style: none;
 }
 
-.list_skills ul {
+.list ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -135,15 +135,13 @@ code {
 
 }
 
-.list_skills li {
+.list li {
   position: relative;
   padding-left: 30px;
   margin-bottom: 10px;
-
-
 }
 
-.list_skills li::before {
+.list li::before {
   content: '▹';
   position: absolute;
   left: 0;

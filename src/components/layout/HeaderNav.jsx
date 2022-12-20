@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { navLink } from '../../config'
 
 export const HeaderNav = () => {
     return (
@@ -10,18 +11,15 @@ export const HeaderNav = () => {
             </div>
             <nav>
                 <ul>
-                    <li>
-                        <NavLink to='/about' className={({isActive}) => isActive ? 'active' : ''}>About</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to='/experience' className={({isActive}) => isActive ? 'active' : ''}>Experience</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to='/work' className={({isActive}) => isActive ? 'active' : ''}>Work</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to='/contact' className={({isActive}) => isActive ? 'active' : ''}>Contact</NavLink>
-                    </li>
+                    {
+                        navLink.map(({ name, to }) => {
+                            return (
+                                <li key={name}>
+                                    <NavLink to={to} className={({ isActive }) => isActive ? 'active' : ''}>{name}</NavLink>
+                                </li>
+                            )
+                        })
+                    }
                 </ul>
             </nav>
         </header>

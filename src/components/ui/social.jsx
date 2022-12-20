@@ -6,7 +6,7 @@ import { Linkedin } from '../icons/linkedin'
 export const Social = () => {
   return (
     <div className='social'>
-        <a href='https://twitter.com/TimmyTunner08' target='_blank' rel='noopener'>
+      <a href='https://twitter.com/TimmyTunner08' target='_blank' rel='noopener'>
         <Twitter />
       </a>
       <a href='https://github.com/Timmytunner8' target='_blank' rel='noopener'>

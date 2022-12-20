@@ -1,6 +1,8 @@
+@import "rsuite/dist/rsuite.css";
+
 body {
-  color: aliceblue;
-  background-color: #282c34;
+  color: aliceblue !important;
+  background-color: #282c34 !important;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -47,6 +49,9 @@ code {
   margin-left: 10px;
   font-weight: 300;
   text-transform: uppercase;
+  font-size: 22px;
+  line-height: 21px;
+  margin-top: 31px;
 }
 
 .header nav {
@@ -103,7 +108,7 @@ code {
 .container_about h5 {
   color: dodgerblue;
   font-size: 47px;
-  margin: 0;
+  margin-bottom: 25px;
 }
 
 .about_description {
